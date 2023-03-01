@@ -3,7 +3,7 @@ import {
   ref
 } from "vue";
 const showModal = ref(false);
-const newNote = ref("trying That");
+const newNote = ref("");
 const notes = ref([]);
 const empty=ref(false);
 
